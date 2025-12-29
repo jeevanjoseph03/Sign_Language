@@ -1,103 +1,93 @@
-# Sign Language
+# OmniSign
 
 ## Overview
 
-Sign Language is a project dedicated to the interpretation and recognition of sign language gestures using machine learning and computer vision techniques. The primary goal of this repository is to provide a robust and accurate system that can translate sign language into text or spoken words, enabling more accessible communication for the deaf and hard-of-hearing community.
-
+OmniSign is an advanced AI-powered platform for real-time, bidirectional communication between sign language users and speakers of any language. Designed for accessibility, OmniSign enables seamless translation between sign, text, and speech—empowering people who cannot speak or hear.
 ## Features
 
-- Real-time sign language gesture recognition.
-- Data preprocessing and augmentation for improved model accuracy.
-- Integration of machine learning and deep learning models.
-- User-friendly interface for both training and inference.
-- Modular codebase to allow easy extension and customization.
-- Comprehensive documentation and clear code structure.
+- Real-time sign language gesture recognition
+- Speech-to-sign and sign-to-speech translation
+- Multilingual support (100+ languages)
+- Personalization for individual signing styles
+- Privacy-first: offline speech recognition and local data storage
+- Modern, user-friendly interface
+- Modular codebase for easy extension
 
 ## Technologies Used
 
 - Python
 - OpenCV
-- TensorFlow/Keras or PyTorch (depending on your implemented framework)
-- NumPy, Pandas, and other Python scientific computing libraries
+- TensorFlow/Keras or PyTorch
+- NumPy, Pandas, and other scientific libraries
 
-## Getting Started
+
+## Quick Start
 
 ### Prerequisites
-
-- Python 3.7 or above
-- pip package manager
+- Python 3.8+
+- Webcam (for sign recognition)
+- Microphone (for speech input)
+- Speakers/Headphones (for speech output)
 
 ### Installation
 
-1. Clone the repository:
+```bash
+git clone https://github.com/jeevanjoseph03/OmniSign.git
+cd OmniSign
+python -m venv sign_env
+sign_env\Scripts\activate  # On Windows
+pip install -r requirements.txt
+pip install vosk sounddevice pyttsx3 opencv-python
+```
 
-    ```bash
-    git clone https://github.com/jeevanjoseph03/Sign_Language.git
-    cd Sign_Language
-    ```
+### Optional: Download Vosk Model
+For offline speech recognition, download a Vosk model from [alphacephei.com/vosk/models](https://alphacephei.com/vosk/models) and extract to the `model` folder.
 
-2. Install the required dependencies:
+### Run the Application
+```bash
+python bi_directional_demo.py
+```
+Choose your preferred mode:
+- Speak to Sign
+- Sign to Speech
+- Text Chat
 
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-### Usage
-
-1. Prepare your sign language image/video dataset as per the instructions in the documentation.
-2. Train the model using provided scripts:
-
-    ```bash
-    python train.py --config configs/default.yaml
-    ```
-
-3. Run inference:
-
-    ```bash
-    python infer.py --model-path models/best_model.pth --input-path test_data/
-    ```
-
-4. For real-time recognition, use the following command:
-
-    ```bash
-    python realtime.py --model-path models/best_model.pth
-    ```
-
-## Dataset
-
-- The recommended datasets and instructions for downloading or preparing your own custom dataset can be found in the [dataset](dataset/) directory or accompanying documentation.
-- Ensure that your data is formatted correctly before training the model.
+### Test All Features
+```bash
+python test_all_features.py
+```
 
 ## Project Structure
 
 ```
-Sign_Language/
-│
-├── models/           # Trained model weights and architectures
-├── data/             # Sample data and dataset utilities
-├── scripts/          # Helper and utility scripts
-├── configs/          # Model and training configuration files
-├── train.py          # Training script
-├── infer.py          # Inference script
-├── realtime.py       # Real-time recognition application
-├── requirements.txt  # Python dependencies
-├── README.md         # Project documentation
-└── ...               # Other files and directories
+OmniSign/
+├── models/              # Neural network architectures
+├── data_pipeline/       # Data collection & preprocessing
+├── modules/             # Translation, personalization, etc.
+├── docs/                # Documentation
+├── train_model.py       # Training script
+├── bi_directional_demo.py # Main GUI application
+├── requirements.txt     # Dependencies
+└── ...                  # Other scripts and resources
 ```
+## Documentation
+
+- [Architecture & Design](docs/ARCHITECTURE.md)
+- [API Specification](docs/API_SPEC.md)
+- [User Guide](docs/USER_GUIDE.md)
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions for improvements or wish to add new features, please fork the repository and open a pull request. Refer to [CONTRIBUTING.md](CONTRIBUTING.md) (if available) for more details.
+Contributions are welcome! Please fork the repository and open a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+MIT License. See [LICENSE](LICENSE).
 
 ## Acknowledgements
 
-- Thanks to the open-source community for datasets and code inspiration.
-- Special mention to researchers and developers who have contributed to Sign Language recognition technologies.
+Thanks to the open-source community and all contributors to sign language technology.
 
 ## Contact
 
-For questions or support, please open an issue or contact the repository owner: [jeevanjoseph03](https://github.com/jeevanjoseph03).
+For support, open an issue or contact [jeevanjoseph03](https://github.com/jeevanjoseph03).

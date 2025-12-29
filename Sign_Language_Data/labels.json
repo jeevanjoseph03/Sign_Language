@@ -1,0 +1,252 @@
+{
+  "Hello": {
+    "en": "Hello",
+    "es": "Hola",
+    "fr": "Bonjour",
+    "ar": "مرحبا",
+    "de": "Hallo",
+    "pt": "Olá",
+    "zh-CN": "你好",
+    "ja": "こんにちは"
+  },
+  "Goodbye": {
+    "en": "Goodbye",
+    "es": "Adiós",
+    "fr": "Au revoir",
+    "ar": "وداعا",
+    "de": "Auf Wiedersehen",
+    "pt": "Adeus",
+    "zh-CN": "再见",
+    "ja": "さようなら"
+  },
+  "Thank you": {
+    "en": "Thank you",
+    "es": "Gracias",
+    "fr": "Merci",
+    "ar": "شكرا",
+    "de": "Danke",
+    "pt": "Obrigado",
+    "zh-CN": "谢谢",
+    "ja": "ありがとう"
+  },
+  "How are you": {
+    "en": "How are you?",
+    "es": "¿Cómo estás?",
+    "fr": "Comment allez-vous?",
+    "ar": "كيف حالك؟",
+    "de": "Wie geht es dir?",
+    "pt": "Como você está?",
+    "zh-CN": "你好吗？",
+    "ja": "お元気ですか？"
+  },
+  "I need help": {
+    "en": "I need help",
+    "es": "Necesito ayuda",
+    "fr": "J'ai besoin d'aide",
+    "ar": "أحتاج إلى مساعدة",
+    "de": "Ich brauche Hilfe",
+    "pt": "Preciso de ajuda",
+    "zh-CN": "我需要帮助",
+    "ja": "助けが必要です"
+  },
+  "Good morning": {
+    "en": "Good morning",
+    "es": "Buenos días",
+    "fr": "Bonjour",
+    "ar": "صباح الخير",
+    "de": "Guten Morgen",
+    "pt": "Bom dia",
+    "zh-CN": "早上好",
+    "ja": "おはよう"
+  },
+  "Good evening": {
+    "en": "Good evening",
+    "es": "Buenas noches",
+    "fr": "Bonsoir",
+    "ar": "مساء الخير",
+    "de": "Guten Abend",
+    "pt": "Boa noite",
+    "zh-CN": "晚上好",
+    "ja": "こんばんは"
+  },
+  "Welcome": {
+    "en": "Welcome",
+    "es": "Bienvenido",
+    "fr": "Bienvenue",
+    "ar": "أهلا وسهلا",
+    "de": "Willkommen",
+    "pt": "Bem-vindo",
+    "zh-CN": "欢迎",
+    "ja": "ようこそ"
+  },
+  "Please": {
+    "en": "Please",
+    "es": "Por favor",
+    "fr": "S'il vous plaît",
+    "ar": "من فضلك",
+    "de": "Bitte",
+    "pt": "Por favor",
+    "zh-CN": "请",
+    "ja": "お願いします"
+  },
+  "Yes": {
+    "en": "Yes",
+    "es": "Sí",
+    "fr": "Oui",
+    "ar": "نعم",
+    "de": "Ja",
+    "pt": "Sim",
+    "zh-CN": "是的",
+    "ja": "はい"
+  },
+  "No": {
+    "en": "No",
+    "es": "No",
+    "fr": "Non",
+    "ar": "لا",
+    "de": "Nein",
+    "pt": "Não",
+    "zh-CN": "不",
+    "ja": "いいえ"
+  },
+  "Okay": {
+    "en": "Okay",
+    "es": "Está bien",
+    "fr": "D'accord",
+    "ar": "حسنا",
+    "de": "Okay",
+    "pt": "Tudo bem",
+    "zh-CN": "好的",
+    "ja": "わかりました"
+  },
+  "What is your name": {
+    "en": "What is your name?",
+    "es": "¿Cuál es tu nombre?",
+    "fr": "Quel est votre nom?",
+    "ar": "ما اسمك؟",
+    "de": "Wie heißt du?",
+    "pt": "Qual é seu nome?",
+    "zh-CN": "你叫什么名字？",
+    "ja": "お名前は？"
+  },
+  "Where are you from": {
+    "en": "Where are you from?",
+    "es": "¿De dónde eres?",
+    "fr": "D'où venez-vous?",
+    "ar": "من أين أنت؟",
+    "de": "Woher kommst du?",
+    "pt": "De onde você é?",
+    "zh-CN": "你来自哪里？",
+    "ja": "どこから来ましたか？"
+  },
+  "Do you understand": {
+    "en": "Do you understand?",
+    "es": "¿Entiendes?",
+    "fr": "Comprenez-vous?",
+    "ar": "هل تفهم؟",
+    "de": "Verstehst du?",
+    "pt": "Você entende?",
+    "zh-CN": "你明白吗？",
+    "ja": "わかりますか？"
+  },
+  "Can you help": {
+    "en": "Can you help?",
+    "es": "¿Puedes ayudar?",
+    "fr": "Pouvez-vous aider?",
+    "ar": "هل يمكنك المساعدة؟",
+    "de": "Kannst du helfen?",
+    "pt": "Você pode ajudar?",
+    "zh-CN": "你能帮忙吗？",
+    "ja": "手伝ってくれますか？"
+  },
+  "I am happy": {
+    "en": "I am happy",
+    "es": "Estoy feliz",
+    "fr": "Je suis heureux",
+    "ar": "أنا سعيد",
+    "de": "Ich bin glücklich",
+    "pt": "Estou feliz",
+    "zh-CN": "我很高兴",
+    "ja": "私は幸せです"
+  },
+  "I am sad": {
+    "en": "I am sad",
+    "es": "Estoy triste",
+    "fr": "Je suis triste",
+    "ar": "أنا حزين",
+    "de": "Ich bin traurig",
+    "pt": "Estou triste",
+    "zh-CN": "我很伤心",
+    "ja": "私は悲しいです"
+  },
+  "I am tired": {
+    "en": "I am tired",
+    "es": "Estoy cansado",
+    "fr": "Je suis fatigué",
+    "ar": "أنا متعب",
+    "de": "Ich bin müde",
+    "pt": "Estou cansado",
+    "zh-CN": "我很累",
+    "ja": "疲れています"
+  },
+  "I love you": {
+    "en": "I love you",
+    "es": "Te amo",
+    "fr": "Je t'aime",
+    "ar": "أنا أحبك",
+    "de": "Ich liebe dich",
+    "pt": "Eu te amo",
+    "zh-CN": "我爱你",
+    "ja": "愛しています"
+  },
+  "Wait": {
+    "en": "Wait",
+    "es": "Espera",
+    "fr": "Attends",
+    "ar": "انتظر",
+    "de": "Warte",
+    "pt": "Espere",
+    "zh-CN": "等等",
+    "ja": "待って"
+  },
+  "Stop": {
+    "en": "Stop",
+    "es": "Para",
+    "fr": "Arrête",
+    "ar": "قف",
+    "de": "Stopp",
+    "pt": "Pare",
+    "zh-CN": "停止",
+    "ja": "止まって"
+  },
+  "Go": {
+    "en": "Go",
+    "es": "Vete",
+    "fr": "Allez",
+    "ar": "اذهب",
+    "de": "Geh",
+    "pt": "Vá",
+    "zh-CN": "去吧",
+    "ja": "行って"
+  },
+  "Come here": {
+    "en": "Come here",
+    "es": "Ven aquí",
+    "fr": "Viens ici",
+    "ar": "تعال هنا",
+    "de": "Komm her",
+    "pt": "Venha aqui",
+    "zh-CN": "过来",
+    "ja": "ここに来て"
+  },
+  "Sit down": {
+    "en": "Sit down",
+    "es": "Siéntate",
+    "fr": "Assieds-toi",
+    "ar": "اجلس",
+    "de": "Setz dich hin",
+    "pt": "Sente-se",
+    "zh-CN": "坐下",
+    "ja": "座ってください"
+  }
+}
