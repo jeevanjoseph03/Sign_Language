@@ -1,8 +1,8 @@
-# Sign_Language
+# Sign Language
 
 ## Overview
 
-Sign_Language is a project dedicated to the interpretation and recognition of sign language gestures using machine learning and computer vision techniques. The primary goal of this repository is to provide a robust and accurate system that can translate sign language into text or spoken words, enabling more accessible communication for the deaf and hard-of-hearing community.
+Sign Language is a project dedicated to the interpretation and recognition of sign language gestures using machine learning and computer vision techniques. The primary goal of this repository is to provide a robust and accurate system that can translate sign language into text or spoken words, enabling more accessible communication for the deaf and hard-of-hearing community.
 
 ## Features
 
