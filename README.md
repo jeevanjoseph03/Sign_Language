@@ -1,5 +1,5 @@
 # OmniSign
-
+ 
 ## Overview
 
 OmniSign is an advanced AI-powered platform for real-time, bidirectional communication between sign language users and speakers of any language. Designed for accessibility, OmniSign enables seamless translation between sign, text, and speech—empowering people who cannot speak or hear.
